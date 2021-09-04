@@ -2,7 +2,7 @@ import java.util.*;
 class BinarySearch{
 	public static int search(int arr[],int l,int r,int key){
 		if(r>=l){
-			int mid=l+(r-1)/2;
+			int mid=l+r/2;
 
 			// first check with mid term
 			if(arr[mid]==key){
